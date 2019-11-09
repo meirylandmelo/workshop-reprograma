@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Muli', sans-serif;
+}
+
+/*BANNER*/
+
+.banner {
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    text-align: center;
+    padding-top: 25vh;
+}
+.banner h1 {
+   color: #ffffff;
+   font-family: 'Roboto', sans-serif;
+   font-size: 40px;
+   font-weight: bold;
+}
+
+.banner a {
+    color: #8F248F;
+    text-decoration: unset;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.banner a:hover {
+    background-color: #8F248F;
+    color: #ffffff;
+}
+
+/*SOBRE MIM*/
+
+.sobre-mim, .redes-sociais {
+    max-width: 1204px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.minhas-habilidades {
+    display: flex;
+}
+
+.minhas-habilidades_sobre, .minhas-habilidades_itens{
+    max-width: 50%;
+}
+
+.minhas-habilidades_sobre {
+    margin-bottom: 20px;
+}
+
+.minhas-habilidades_sobre a {
+    text-decoration: unset;
+    color: #8F248F;
+    background-color: #FFF;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: solid 1px;
+}
+
+.minhas-habilidades_sobre a:hover {
+    background-color: #8F248F;
+    color: #ffffff;
+}
+
+.minhas-habilidades_itens {
+    margin-left: 10%;
+}
+
+/*REDES SOCIAIS*/
+
+.redes-sociais_item {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.redes-sociais_facebook, .redes-sociais_linkedin,
+.redes-sociais_twitter, .redes-sociais_github {
+    background-color: #8F248F;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+}
+
+.redes-sociais_item a {
+    text-decoration: unset;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 20%;
+}
+
+.redes-sociais_item a div:hover {
+    background-color: #F6D4F8;
+    color: #8F248F;
+}
+
+.redes-sociais_item img {
+    max-height: 55px;
+}
+
+/*FOOTER*/
+
+footer p {
+    text-align: center;
+    color: #8F248F;
+    margin: 0;
+    padding: 20px 0;
+    font-size: 20px;
+}
